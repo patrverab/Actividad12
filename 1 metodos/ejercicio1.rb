@@ -2,12 +2,8 @@
 # hint: Debes utilizar 'rubocop'
 # y no obtener errores ni warnings.
 
-def par(x)
-  if x % 2 == 0
-    return true
-  else
-    return false
-  end
+def par(num)
+  num.even?
 end
 
 puts par(2)
